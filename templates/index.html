@@ -1,0 +1,374 @@
+{% extends "base.html" %} {% block title %}  {% endblock %}
+{% block content %}
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-center">
+<!-- ======= Header =======
+      <div class="logo">
+        <h1><a href="index.html"></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!--</div> -->
+
+      <nav id="navbar" class="navbar" style="background-color: #3d3a3a;">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Главная</a></li>
+          <li><a class="nav-link scrollto" href="#about">Обо мне</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Навыки</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Портфолио</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Отзывы</a></li>
+          <li><a class="getstarted scrollto" href="#review">Оставить отзыв</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center section-bg-other">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Михаил Выродов</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Студент 2-ого курса программной инженерии СПБГУ</h2>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <div class="contact-about">
+              <div class="social-links fa-5x">
+                <a href="https://github.com/VyrodovMikhail/" class="github"><i class="bx bxl-github" style="font-size: 30px;"></i></a>
+                <a href="https://t.me/misha534" class="telegram"><i class="bx bxl-telegram" style="font-size: 30px;"></i></a>
+                <a href="https://vk.com/vyrodovvv" class="vk"><i class="bx bxl-vk" style="font-size: 30px;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="static/assets/img/avatar_new.jpg" class="img-fluid" style="margin-top: 50px;" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about section-bg-other">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Обо мне</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p>
+              Родился в прекрасном городе Белгороде 19.05.2004. Всю жизнь жил в его не менее хорошем пригороде, городе Шебекино.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> <strong>7</strong> лет занимался большим теннисом</li>
+              <li><i class="ri-check-double-line"></i> <strong>3</strong> года изучаю программирование</li>
+              <li><i class="ri-check-double-line"></i> <strong>3</strong> года учил французский язык</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              Всю жизнь интересуюсь путешествиями. Также всегда занимался спортом. Например, большим теннисом и горными/беговыми лыжами.
+              Есть предрасположенность к изучению языков. Пока что на достойном уровне из иностранных языков знаю только английский,
+              но надеюсь, что в будущем к нему прибавятся немецкий и франузский. Кроме этого, с раннего возраста начал увлекаться
+              математикой, а с программированием познакомился в конце 10-ого класса.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+
+        <div class="row">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
+            <img src="static/assets/img/counts-img.svg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-book"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter" style="color: white;"></span>
+                    <p><strong>Онлайн курсов</strong> по программированию закончил на степике.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter" style="color: white;"></span>
+                    <p><strong>Призёрства Всеросса</strong> на региональном уровне за 11 класс.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-airplane"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter" style="color: white;"></span>
+                    <p><strong>Стран</strong> успел посетить за свои 18 лет.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-music-note-beamed"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter" style="color: white;"></span>
+                    <p><strong>Лет</strong> отучился по классу фортепиано в музыкальной школе. Закончил с отличием.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Навыки</h2>
+          <p>Всегда готов погрузиться в новые, необычные задачи. Последние 2 года этим и занимаюсь)</p>
+        </div>
+
+        <div class="row skills-content justify-content-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+            <div class="progress">
+              <div class="progress-bar-wrap">
+                <div class="progress-bar"
+                        role="progressbar"
+                        style="width: 90%;"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                  <span class="skill">Английский язык</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <div class="progress-bar-wrap">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 75%;"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                  <span class="skill">C#</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar-wrap">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 70%;"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                  <span class="skill">C</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar-wrap">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 40%;"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                  <span class="skill">OCaml</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="progress">
+              <div class="progress-bar-wrap">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 90%;"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                  <span class="skill">Большой теннис</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar-wrap">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%;"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                  <span class="skill">Python</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar-wrap">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 60%;"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                  <span class="skill">C++</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar-wrap">
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 30%;"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                  <span class="skill">Haskell</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+    <!-- Вставить свои скиллы -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg-other">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Портфолио</h2>
+          <p>Проекты, в которых я участвовал либо участвую</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/knowledge_fragment.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Обучение фрагмента знаний</h4>
+                <p>Проект в ЛШ матмеха по машинному обучению</p>
+                <div class="portfolio-links">
+                  <a href="https://docs.google.com/presentation/d/1kDcJqeW9fTZ-OqlT1wUj3AjDLI8DAPm24b4p20x_FOY/" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/desbordante.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Desbordante</h4>
+                <p>Учебная практика 3-его семестра</p>
+                <div class="portfolio-links">
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/programming.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Дз по программированию</h4>
+                <p>Дз по практикуму на ЭВМ за 1-ый курс</p>
+                <div class="portfolio-links">
+                  <a href="https://github.com/Stanislav-Sartasov/spsu-mm-se-programming/tree/Mikhail_Vyrodov_new/Mikhail_Vyrodov" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+        <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Отзывы</h2>
+          <p>Мнения посетителей о сайте</p>
+        </div>
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            {% for post in posts %}
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <h3>{{post.name}}</h3>
+                  <h4>{{post.updated_on}}</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    {{post.text}}
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <section id="review" class="review section-bg-other">
+      <div class="section-title" data-aos="fade-up">
+          <h2>Оставьте отзыв</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-5 " data-aos="fade-up" data-aos-delay="100">
+          <div class=" text-left">
+            <form action="{{ url_for('index_page') }}" method="POST" role="form" class="php-email-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="text" id="text" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center"><button type="submit">Отправить</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+{% endblock %}
